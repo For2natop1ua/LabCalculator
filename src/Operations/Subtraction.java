@@ -3,7 +3,7 @@ package Operations;
 import Interface.Operation;
 
 // Реалізація інтерфейсу для віднімання
-class Subtraction implements Operation {
+public class Subtraction implements Operation {
     private final double operand1;
     private final double operand2;
 

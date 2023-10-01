@@ -3,7 +3,7 @@ package Operations;
 import Interface.Operation;
 
 // Реалізація інтерфейсу для множення
-class Multiplication implements Operation {
+public class Multiplication implements Operation {
     private final double operand1;
     private final double operand2;
 

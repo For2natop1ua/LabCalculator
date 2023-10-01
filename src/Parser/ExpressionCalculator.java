@@ -1,11 +1,14 @@
 package Parser;
 
+import Interface.Operation;
+import Operations.*;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.List;
 
 // Клас для обчислення виразів
-class ExpressionCalculator {
+public class ExpressionCalculator {
     public static double evaluatePostfix(List<String> postfixTokens) {
         Deque<Double> operandStack = new ArrayDeque<>();
 

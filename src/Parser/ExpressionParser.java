@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.List;
 
 // Клас для парсингу виразу
-class ExpressionParser {
+public class ExpressionParser {
     public static List<String> tokenize(String expression) {
         List<String> tokens = new ArrayList<>();
         StringBuilder currentToken = new StringBuilder();

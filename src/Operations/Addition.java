@@ -3,7 +3,7 @@ package Operations;
 import Interface.Operation;
 
 // Реалізація інтерфейсу для додавання
-class Addition implements Operation {
+public class Addition implements Operation {
     private final double operand1;
     private final double operand2;
 

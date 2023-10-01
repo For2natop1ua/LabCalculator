@@ -3,7 +3,7 @@ package Operations;
 import Interface.Operation;
 
 // Реалізація інтерфейсу для ділення
-class Division implements Operation {
+public class Division implements Operation {
     private final double operand1;
     private final double operand2;
 
